@@ -2,9 +2,19 @@
 
 ![Captura de pantalla (57)](https://github.com/xfiberex/CRUD_ListaNotas/assets/135444565/7f578d08-b995-4a49-b8f0-5432601a2a5b)
 
+![Captura de pantalla (58)](https://github.com/xfiberex/CRUD_ListaNotas/assets/135444565/5ba836b6-2aed-4da6-852e-3c2c01dbdfec)
+
 ## Descripción
 
-La aplicación web ASP.NET Core permite realizar las siguientes operaciones relacionadas con la entidad "Tarea":
+CRUD desarrollado en capas como:
+
+Capa Negocio como ListaNotas.BLL, sirve de intermediario entre la BD y la APP.
+Capa Datos como ListaNotas.DAL, se encarga de la conexión entre la BD y APP.
+Capa Entidad como ListaNotas.Entity, maneja las entidades o tablas con sus atribustos.
+Capa Controlador como ListaNotas.IOC, que contiene las dependencias para la ejecución.
+Capa Presentación como ListaNotas.WEB, encargada del diseño.
+
+Como ejemplo, La aplicación web permite realizar las siguientes operaciones relacionadas con la entidad "Tarea":
 
 ### Listar Tareas
 
@@ -24,4 +34,4 @@ A través del endpoint `/Tarea/Eliminar`, se puede eliminar una tarea existente 
 
 ## Uso
 
-Esta aplicación se utiliza en conjunto con los servicios y repositorios correspondientes para manejar las operaciones CRUD de la entidad "Tarea". Se recomienda utilizar una herramienta como Postman o Insomnia para probar los diferentes endpoints y sus funcionalidades.
+Se utiliza para representar las operaciones básicas que una aplicación de software puede realizar sobre los datos almacenados, generalmente en una base de datos. Estas operaciones son fundamentales para la gestión de información y son comunes en la mayoría de aplicaciones.
