@@ -8,13 +8,13 @@
 
 CRUD desarrollado en capas como:
 
-Capa Negocio como ListaNotas.BLL, sirve de intermediario entre la BD y la APP.
-Capa Datos como ListaNotas.DAL, se encarga de la conexión entre la BD y APP.
-Capa Entidad como ListaNotas.Entity, maneja las entidades o tablas con sus atribustos.
-Capa Controlador como ListaNotas.IOC, que contiene las dependencias para la ejecución.
-Capa Presentación como ListaNotas.WEB, encargada del diseño.
+- **Capa Negocio (ListaNotas.BLL)**: Sirve de intermediario entre la base de datos y la aplicación.
+- **Capa Datos (ListaNotas.DAL)**: Se encarga de la conexión entre la base de datos y la aplicación.
+- **Capa Entidad (ListaNotas.Entity)**: Maneja las entidades o tablas con sus atributos.
+- **Capa Controlador (ListaNotas.IOC)**: Contiene las dependencias para la ejecución.
+- **Capa Presentación (ListaNotas.WEB)**: Encargada del diseño.
 
-Como ejemplo, La aplicación web permite realizar las siguientes operaciones relacionadas con la entidad "Tarea":
+Como ejemplo, la aplicación web permite realizar las siguientes operaciones relacionadas con la entidad "Tarea":
 
 ### Listar Tareas
 
