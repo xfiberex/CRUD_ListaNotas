@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ListaNotas.BLL\ListaNotas.BLL.csproj" />
+    <ProjectReference Include="..\ListaNotas.Entity\ListaNotas.Entity.csproj" />
+    <ProjectReference Include="..\ListaNotas.IOC\ListaNotas.IOC.csproj" />
+  </ItemGroup>
+
+</Project>
