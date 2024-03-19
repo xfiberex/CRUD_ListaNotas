@@ -1,5 +1,7 @@
 # Solución_ListaNotas
 
+![Captura de pantalla (57)](https://github.com/xfiberex/CRUD_ListaNotas/assets/135444565/7f578d08-b995-4a49-b8f0-5432601a2a5b)
+
 ## Descripción
 
 La aplicación web ASP.NET Core permite realizar las siguientes operaciones relacionadas con la entidad "Tarea":
