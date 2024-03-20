@@ -14,6 +14,8 @@ CRUD desarrollado en capas como:
 - **Capa Controlador (ListaNotas.IOC)**: Contiene las dependencias para la ejecución.
 - **Capa Presentación (ListaNotas.WEB)**: Encargada del diseño.
 
+- NOTA: la carpeta wwwroot tiene codigo predefinido o plantillas para usar.
+
 Como ejemplo, la aplicación web permite realizar las siguientes operaciones relacionadas con la entidad "Tarea":
 
 ### Listar Tareas
