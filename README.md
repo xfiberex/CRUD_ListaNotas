@@ -1,4 +1,4 @@
-# Solución_ListaNotas
+# CRUD Lista de Notas
 
 ![Captura de pantalla (57)](https://github.com/xfiberex/CRUD_ListaNotas/assets/135444565/7f578d08-b995-4a49-b8f0-5432601a2a5b)
 
